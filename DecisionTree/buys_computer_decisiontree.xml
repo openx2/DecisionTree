@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DecisionTree>
+    <age value="&lt;=30">
+        <student value="no">no</student>
+        <student value="yes">yes</student>
+    </age>
+    <age value="31бн40">yes</age>
+    <age value="&gt;40">
+        <credit_rating value="fair">yes</credit_rating>
+        <credit_rating value="excellent">no</credit_rating>
+    </age>
+</DecisionTree>

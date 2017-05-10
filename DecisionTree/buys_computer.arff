@@ -1,0 +1,22 @@
+@relation "people buys computer"
+@attribute age { <=30, 31бн40, >40 }
+@attribute income { low, medium, high }
+@attribute student { yes, no }
+@attribute credit_rating { fair, excellent }
+@attribute buys_computer { yes, no }
+
+@data
+<=30,high,no,fair,no
+<=30,high,no,excellent,no
+31бн40,high,no,fair,yes
+>40,medium,no,fair,yes
+>40,low,yes,fair,yes
+>40,low,yes,excellent,no
+31бн40,low,yes,excellent,yes
+<=30,medium,no,fair,no
+<=30,low,yes,fair,yes
+>40,medium,yes,fair,yes
+<=30,medium,yes,excellent,yes
+31бн40,medium,no,excellent,yes
+31бн40,high,yes,fair,yes
+>40,medium,no,excellent,no

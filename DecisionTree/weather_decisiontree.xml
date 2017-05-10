@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DecisionTree>
+    <outlook value="sunny">
+        <humidity value="high">no</humidity>
+        <humidity value="normal">yes</humidity>
+    </outlook>
+    <outlook value="overcast">yes</outlook>
+    <outlook value="rainy">
+        <windy value="FALSE">yes</windy>
+        <windy value="TRUE">no</windy>
+    </outlook>
+</DecisionTree>
